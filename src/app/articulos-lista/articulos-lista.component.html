@@ -1,0 +1,13 @@
+<h2>{{description}}</h2>
+
+<hr>
+<ul>
+  <li *ngFor="let item of articulos">
+    {{item.nombre}}
+    
+  </li>
+</ul>
+
+
+<button (click)="cargarArticulos()">Actualizar</button>
+
